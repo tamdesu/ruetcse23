@@ -1,7 +1,7 @@
 export default function Motto() {
   return (
-          <div className="w-full h-auto flex flex-col justify-between items-center p-4 bg-[#050d1f] bg-opacity-80 backdrop-blur ">
-                <h1 className="text-3xl sm:text-5xl font-thin tracking-widest text-cyan-300">O U R • M O T T O</h1>
+          <div className="w-full h-auto flex flex-col justify-between items-center p-8 bg-[#050d1f] bg-opacity-80 backdrop-blur ">
+                <h1 className="text-2xl sm:text-5xl font-thin tracking-widest text-cyan-300">O U R • M O T T O</h1>
                 <br />
                 <span className="w-3/4 sm:w-1/2 p-px bg-gradient-to-r from-gray-900 via-cyan-300 to-gray-900 "></span>
                 <br />
