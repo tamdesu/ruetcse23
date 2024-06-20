@@ -11,32 +11,32 @@ export default function SideNav({width, margin}) {
       <ul className="text-xl font-extralight uppercase">
         <li className="mb-4 bg-[#161616] p-4 rounded-lg flex items-center"> 
           <span >
-            <FontAwesomeIcon icon={faHouse} style={{color:"#00FFFF"}} className="mr-4" />
+            <FontAwesomeIcon icon={faHouse} className="mr-4" />
           </span>
           Home
         </li>
         <li className="mb-4 bg-[#161616] p-4 rounded-lg flex items-center"> 
-          <span style={{ color: '#00FFFF' }}>
+          <p className ="text-cyan-300">
             <FontAwesomeIcon icon={faUser} className="mr-4" />
-          </span>
+          </p >
           Students
         </li>
         <li className="mb-4 bg-[#161616] p-4 rounded-lg flex items-center"> 
-          <span style={{ color: '#00FFFF' }}>
+          <p className ="text-cyan-300">
             <FontAwesomeIcon icon={faLaptop} className="mr-4" />
-          </span>
+          </p >
           Projects
         </li>
         <li className="mb-4 bg-[#161616] p-4 rounded-lg flex items-center"> 
-          <span style={{ color: '#00FFFF' }}>
+          <p className ="text-cyan-300">
             <FontAwesomeIcon icon={faBook} className="mr-4" />
-          </span>
+          </p >
           Resources
         </li>
         <li className="mb-4 bg-[#161616] p-4 rounded-lg flex items-center"> 
-          <span style={{ color: '#00FFFF' }}>
+          <p className="text-cyan-300">
             <FontAwesomeIcon icon={faBell} className="mr-4" />
-          </span>
+          </p >
           Announcements
         </li>
       </ul>
